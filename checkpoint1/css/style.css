@@ -1,0 +1,24 @@
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+ul {
+  float: right;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding: 15px;
+    font-size: 22px;
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
+
+li a{
+  color:#8c00ff;
+}
+
+header {
+  border-bottom: solid #822dc4 1px;
+}
