@@ -5,6 +5,7 @@
 
 ul {
   float: right;
+  padding-top: 85px;
 }
 
 li {
@@ -12,13 +13,52 @@ li {
     float: left;
     padding: 15px;
     font-size: 22px;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, sans-serif;
   }
 
 li a{
-  color:#8c00ff;
+  color:#6803c6;
 }
 
 header {
   border-bottom: solid #822dc4 1px;
+  background-color: white;
+}
+
+body {
+background-color: #f2edf7;
+}
+
+img {
+  height: 500px;
+  width: 350px;
+  padding-left: 7px;
+  padding-right: 10px;
+  padding-top: 10px;
+  border-radius: 25px;
+}
+
+.aniqimage {
+  float: left;
+  padding-top: 5px;
+}
+
+.maintext {
+  padding-top: 10px;
+
+}
+
+h1 {
+  color: #023991;
+  font-size: 45px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #001051;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
 }
