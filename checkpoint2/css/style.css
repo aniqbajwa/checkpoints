@@ -1,0 +1,129 @@
+.grid-container {
+display: grid;
+grid-template-columns: repeat(4, 23%);
+grid-template-rows: repeat(15, 1fr);
+grid-gap: 25px;
+width: 100%;
+}
+
+.logo {
+grid-column: 1 / span 2;
+grid-row: 1 / span 2;
+display: flex;
+padding: 20px 1px 75px 20px;
+}
+
+.navbar {
+grid-column: 3 / span 2;
+grid-row: 1 / span 2;
+display: flex;
+justify-content: flex-end;
+padding: 20px 1px 75px 20px;
+}
+
+.html {
+grid-column: 1;
+grid-row: 3 / span 6;
+display: flex;
+background-image: url("../img/html.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.css {
+grid-column: 2;
+grid-row: 3 / span 6;
+display: flex;
+background-image: url("../img/css.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+border-radius: 25px;
+background-size: 100% 100%;
+}
+
+.javascript {
+grid-column: 4;
+grid-row: 3 / span 6;
+display: flex;
+background-image: url("../img/javascript.png");
+background-size: contain;
+background-repeat: no-repeat;
+border-radius: 25px;
+background-size: 100% 100%;
+}
+
+.jquery {
+grid-column: 3;
+grid-row: 3 / span 6;
+display: flex;
+background-image: url("../img/jquery.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.csharp {
+grid-column: 1;
+grid-row: 9 / span 6;
+display: flex;
+background-image: url("../img/csharp.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.mysql {
+grid-column: 2;
+grid-row: 9 / span 6;
+display: flex;
+background-image: url("../img/mysql.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.aspdotnet {
+grid-column: 3;
+grid-row: 9 / span 6;
+display: flex;
+background-image: url("../img/dotnet.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+border-radius: 25px;
+background-size: 100% 100%;
+}
+
+.api {
+grid-column: 4;
+grid-row: 9 / span 6;
+display: flex;
+background-image: url("../img/api.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.footer {
+grid-column: 1 / span 4;
+grid-row: 15;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+li  {
+  display: inline;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: gray;
+}
+
+/* doesn't work. too much space between small boxes. */
+
+/* .html, .css, .javascript, .jquery {
+  height: 50%;
+  width: 50%;
+} */
