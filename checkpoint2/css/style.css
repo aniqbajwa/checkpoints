@@ -113,17 +113,16 @@ align-items: center;
 }
 
 li  {
-  display: inline;
-  padding: 10px;
+display: inline;
+padding: 10px;
+color: #3f87fc;
 }
 
 li:hover {
-  background-color: gray;
+  background-color: #d4e3fc;
 }
 
-/* doesn't work. too much space between small boxes. */
-
-/* .html, .css, .javascript, .jquery {
-  height: 50%;
-  width: 50%;
-} */
+a {
+text-decoration: none;
+color: #3f87fc;
+}

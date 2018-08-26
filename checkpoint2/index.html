@@ -3,19 +3,36 @@
       <title>Aniq Bajwa - Web Developer</title>
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive Web Design -->
+      <style>
+      @media (max-width: 768px) {
+        body{
+          width: 768px;
+        }
+      }
+      @media (max-width: 576px) {
+        body{
+          width: 576px;
+        }
+      }
+      </style>
     </head>
     <body>
       <main class="grid-container">
+        <!-- These are the logo and navbar -->
         <article class="logo">
           <img src="./img/logo.png">
           </article>
         <article class="navbar">
           <ul>
-            <li>HOME</li>
-            <li>PORTFOLIO</li>
-            <li>CONTACT ME</li>
+            <li><a href="#">HOME</a></li>
+            <li>|</li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li>|</li>
+            <li><a href="contactme.html">CONTACT ME</a></li>
           </ul>
           </article>
+          <!-- 8 Boxes with image of skill stretched to fit each box -->
         <article class="html">
           </article>
         <article class="css">
@@ -32,10 +49,9 @@
           </article>
         <article class="api">
           </article>
+          <!-- Footer with copyright at bottom center of page -->
         <article class="footer">
           <h7>©Aniq Bajwa - Web Developer</h7>
           </article>
-
-
     </body>
   </html>
