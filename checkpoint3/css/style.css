@@ -1,0 +1,63 @@
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(12, 1fr);
+}
+
+.logo {
+grid-column: 2;
+grid-row: 1 / span 2;
+display: flex;
+}
+
+.smileymain img{
+  height: 75%;
+  width: 75%;
+}
+
+.smileymain {
+grid-column: 1;
+grid-row: 5 / span 6;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.counter {
+grid-column: 2;
+grid-row: 5 / span 3;
+display: flex;
+}
+
+.level1 {
+grid-column: 3;
+grid-row: 3 / span 2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.level2 {
+grid-column: 3;
+grid-row: 6 / span 2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.level3 {
+grid-column: 3;
+grid-row: 9 / span 2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+button {
+background: transparent;
+text-shadow: 1px 1px 1px #202020;
+font-family: "Lato", sans-serif;
+font-size: 18pt;
+border: 1px solid white;
+color: lightblue;
+}
